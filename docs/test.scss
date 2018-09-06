@@ -1,0 +1,10 @@
+@import "../dist/webkit-sassui-icon-circle-close.scss";
+@import "node_modules/webkit-sassui-icon-close/dist/webkit-sassui-icon-close.scss";
+html,
+body{
+  height: 100%;
+  background: #000;
+}
+.test-webkit-sassui-icon-circle-close{
+  border:1px solid red;
+}

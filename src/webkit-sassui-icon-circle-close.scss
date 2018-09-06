@@ -1,0 +1,35 @@
+/*webkit-sassui-icon-circle-close Start*/
+$webkit-sassui-icon-circle-close-options: (
+  font-size: 10px,
+  size: (
+    6.4em,
+    4.4em
+  )
+) !default;
+
+.webkit-sassui-icon-circle-close {
+  $font-size: map-get($map: $webkit-sassui-icon-circle-close-options, $key: font-size );
+  $size: map-get($map: $webkit-sassui-icon-circle-close-options, $key: size );
+  background: none;
+  outline:none;
+  border: 0.55px solid #fff;
+  width: nth($size,1);
+  height: nth($size,1);
+  font-size: $font-size;
+  border-radius: 1000px;
+  position: relative;
+
+  &:active{
+    opacity: 0.8;
+  }
+
+  > .webkit-sassui-icon-close {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: nth($size,2);
+    height: nth($size,2);
+    top: 50%;
+    left: 50%;
+  }
+}
+/*webkit-sassui-icon-circle-close End*/
