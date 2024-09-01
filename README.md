@@ -13,9 +13,32 @@ npm install @jswork/react-with-props
 
 ## usage
 ```js
-import reactWithProps from '@jswork/react-with-props';
+import withProps from '@jswork/react-with-props';
+import React from 'react';
 
-// usage goes here.
+interface MyComponentProps {
+  title: string;
+  content: string;
+}
+
+const MyComponent: React.FC<MyComponentProps> = (props) => {
+  const { title, content } = props;
+  return React.createElement('div', null,
+    React.createElement('h1', null, title),
+    React.createElement('p', null, content)
+  );
+};
+
+// 使用 withProps 直接传递 defaultProps 和组件
+const EnhancedComponent = withProps({ title: 'Default Title' }, MyComponent);
+
+const App: React.FC = () => {
+  return React.createElement('div', null,
+    React.createElement(EnhancedComponent, { content: 'Custom Content' })
+  );
+};
+
+export default App;
 ```
 
 ## types
