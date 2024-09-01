@@ -1,4 +1,4 @@
-# react-with-props
+# with-props
 > Enhance component with preset properties.
 
 [![version][version-image]][version-url]
@@ -8,12 +8,12 @@
 
 ## installation
 ```shell
-npm install @jswork/react-with-props
+npm install @jswork/with-props
 ```
 
 ## usage
 ```js
-import withProps from '@jswork/react-with-props';
+import withProps from '@jswork/with-props';
 import React from 'react';
 
 interface MyComponentProps {
@@ -43,20 +43,20 @@ export default App;
 
 ## types
 ```ts
-/// <reference types="@jswork/react-with-props/global.d.ts" />
+/// <reference types="@jswork/with-props/global.d.ts" />
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/react-with-props/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/with-props/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/react-with-props
-[version-url]: https://npmjs.org/package/@jswork/react-with-props
+[version-image]: https://img.shields.io/npm/v/@jswork/with-props
+[version-url]: https://npmjs.org/package/@jswork/with-props
 
-[license-image]: https://img.shields.io/npm/l/@jswork/react-with-props
-[license-url]: https://github.com/afeiship/react-with-props/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/with-props
+[license-url]: https://github.com/afeiship/with-props/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/react-with-props
-[size-url]: https://github.com/afeiship/react-with-props/blob/master/dist/index.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/with-props
+[size-url]: https://github.com/afeiship/with-props/blob/master/dist/index.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/react-with-props
-[download-url]: https://www.npmjs.com/package/@jswork/react-with-props
+[download-image]: https://img.shields.io/npm/dm/@jswork/with-props
+[download-url]: https://www.npmjs.com/package/@jswork/with-props
