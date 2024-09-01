@@ -1,6 +1,6 @@
 {
   "name": "@jswork/with-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enhance component with preset properties.",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
@@ -33,5 +33,12 @@
   },
   "peerDependencies": {
     "react": "*"
-  }
+  },
+  "keywords": [
+    "default-props",
+    "presets",
+    "properties",
+    "react",
+    "with-props"
+  ]
 }
