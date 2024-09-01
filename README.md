@@ -41,11 +41,6 @@ const App: React.FC = () => {
 export default App;
 ```
 
-## types
-```ts
-/// <reference types="@jswork/with-props/global.d.ts" />
-```
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/with-props/blob/master/LICENSE.txt).
 
